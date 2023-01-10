@@ -1,0 +1,8 @@
+#!/bin/bash
+strings=
+
+if [[ "$JAVA_HOME" == "C:\Program Files\Java\jdk1.8.0_311" ]]; then
+  echo "Java 8 detected"
+    :
+fi
+
